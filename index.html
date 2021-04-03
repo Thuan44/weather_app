@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="header-title">What's the weather ?</h1>
+        </header>
+        <div class="notifications"><i class="fas fa-exclamation-triangle"></i> Geolocation denied by the user</div>
+        <main>
+            <div class="weather-img-container">
+                <img class="weather-img" src="assets/unknown.png" alt="weather image">
+            </div>
+            <div class="weather-temperature">
+                <span class="temperature-number">-</span>
+                <span class="temperature-symbole">°</span>
+                <span class="temperature-unit">c</span>
+            </div>
+            <div class="weather-description">-</div>
+            <div class="weather-location">
+                <span class="location-city">-</span>,
+                <span class="location-country">-</span>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
